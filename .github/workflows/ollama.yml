@@ -6,7 +6,7 @@ on:
 env:
   RSS_URL: ${{secrets.RSS_URL}}
   DISCORD_WEBHOOK_URL: ${{secrets.DISCORD_WEBHOOK_URL}}
-  MAX_LOAD_ITEM: 6
+  MAX_LOAD_ITEM: 9
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
